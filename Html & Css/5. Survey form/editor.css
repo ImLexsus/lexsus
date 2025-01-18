@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #f0f3ff;
+    color: #ffffff;
+    line-height: 1.6;
+    background-image: url('https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); /* Path lokal atau URL */
+    background-size: cover; /* Agar gambar memenuhi layar */
+    background-position: auto auto; /* Menempatkan gambar di tengah */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    background-attachment: fixed;
+  }
+  
+  h1#title {
+    text-align: center;
+    font-size: 2.7rem;
+    margin-top: 2rem 0;
+    margin-bottom: 0rem ;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #c9c9c9;
+  }
+  
+  form#survey-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #2d1e8765;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    border-radius: 20px;
+    color: #bcb7b7;
+  }
+  
+  fieldset {
+    border: none;
+    margin-bottom: 0.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 15px 10px;
+    margin-bottom: 1rem;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    transform: scale(1.5);
+    width: auto;
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
+  
+  label.inline {
+    display: inline;
+    font-weight: normal;
+  }
+  
+  label.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  legend {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input#submit {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  input#submit:hover {
+    background-color: #0056b3;
+  }
+
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .checkbox-group label {
+    margin-left: 0.5rem;
+  }

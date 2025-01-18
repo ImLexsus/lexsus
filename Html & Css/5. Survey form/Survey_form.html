@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="editor.css">
+    <title>Lexsus Limited Company Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Lexsus Limited Company Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    
+    <form id="survey-form" action="">
+        <fieldset>
+            <label for="name" id="name-label">Enter your name: <input id="name" name="name" type="text" placeholder="Jason ..." required></label>
+            <label for="email" id="email-label">Enter your email: <input id="email" name="email" type="email" placeholder="...@gmail.com" required></label>
+            <label for="number" id="number-label">Enter your age: <input id="number" name="number" type="number" min="13" max="100" placeholder="ex: 23" required></label>
+        </fieldset>
+
+        <fieldset>
+            <label for="dropdown">Which option best describe your current role?
+                <select id="dropdown" name="role">
+                  <option value="">Select current role</option>
+                  <option value="1">Student</option>
+                  <option Value="2">Full time job</option>
+                  <option value="3">Full time leaner</option>
+                  <option value="4">Prefer not to say</option>
+                  <option value="5">Other</option>          
+                </select>
+            </label> 
+        </fieldset>
+
+        <fieldset>
+            <legend>Would you recommend Lexsus Limited Company to a friend?</legend>
+                <label for="of-course"><input id="of-course" type="radio" name="awnser" class="inline" value="of-course" >Of course</label>
+                <label for="maybe"><input id="maybe" type="radio" name="awnser" class="inline" value="maybe" >Maybe</label>
+                <label for="not-sure"><input id="not-sure" type="radio" name="awnser" class="inline" value="not-sure">Not sure</label>
+        </fieldset>
+
+        <fieldset>
+            <label for="dropdown">What your favorite feature of Lexsus Limited Company?
+                <select id="dropdown" name="feature">
+                  <option value="">Select an option</option>
+                  <option value="1">Challanges</option>
+                  <option Value="2">Projects</option>
+                  <option value="3">Community</option>
+                  <option value="4">Open source</option>          
+                </select>
+            </label> 
+        </fieldset>
+
+        <fieldset>
+            <legend>What would you like to see improved?</legend>
+            
+            <div class="checkbox-group">
+                <input id="front-end" type="checkbox" name="improved" value="front-end">
+                <label for="front-end">Front End Project</label>
+              </div>
+              <div class="checkbox-group">
+                <input id="back-end" type="checkbox" name="improved" value="back-end">
+                <label for="back-end">Back End Project</label>
+              </div>
+              <div class="checkbox-group">
+                <input id="data-visualization" type="checkbox" name="improved" value="data-visualization">
+                <label for="data-visualization">Data Visualization</label>
+              </div>
+              <div class="checkbox-group">
+                <input id="challanges" type="checkbox" name="improved" value="challanges">
+                <label for="challanges">Challange</label>
+              </div>
+              <div class="checkbox-group">
+                <input id="gitter-help-rooms" type="checkbox" name="improved" value="gitter-help-rooms">
+                <label for="gitter-help-rooms">Gitter Help Rooms</label>
+              </div>
+              <div class="checkbox-group">
+                <input id="videos" type="checkbox" name="improved" value="videos">
+                <label for="videos">Videos</label>
+              </div>
+              <div class="checkbox-group">
+                <input id="city-meetups" type="checkbox" name="improved" value="city-meetups">
+                <label for="city-meetups">City Meetups</label>
+              </div>
+              <div class="checkbox-group">
+                <input id="wiki" type="checkbox" name="improved" value="wiki">
+                <label for="wiki">Wiki</label>
+              </div>
+              <div class="checkbox-group">
+                <input id="forum" type="checkbox" name="improved" value="forum">
+                <label for="forum">Forum</label>
+              </div>
+              <div class="checkbox-group">
+                <input id="additional-courses" type="checkbox" name="improved" value="additional-courses">
+                <label for="additional-courses">Additional Courses</label>
+              </div>              
+            
+            <label for="suggest">Any comments or suggestions?
+                <textarea id="suggest" name="suggest" rows="3" cols="30" placeholder="Enter your commement here..."></textarea>
+            </label>
+          </fieldset>
+
+          <input id="submit" type="submit" value="submit">
+    </form>
+</body>
+</html>
